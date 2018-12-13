@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Table Top Exercise</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/night.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!-- Feel the holidays -->
+		<script src="lib/js/snow.js"></script>
+	</head>
+	<body>
+		<div class="reveal">
+
+			<!-- Your Slides starts here -->
+			<div class="slides">
+				<section>
+					<h2>Table Top Exercise</h2>
+					<p>
+						<small>Nickname: "hackmytoaster"</small>
+					</p>
+				</section>
+
+				<section>
+					<h2>Hello there peasants...</h2>
+					<p>
+						<small>Your doom starts now...</small>
+					</p>
+				</section>
+
+				<!-- START OF SCENARIO 1 -->
+				<section>
+					<section style="text-align: left;" id="fragments">
+						<h2>Scenario 1</h2>
+						<h3 class="fragment fade-right">Initial Facts</h3>
+						<ul>
+							<li class="fragment fade-up">Saturday afternoon, a certain group of hackers defaced all Joomla made websites hosted in GWHS.</li>
+							<li class="fragment fade-up">All user accounts, including admin accounts has been exposed and dumped on the Internet.</li>
+						</ul>
+					</section>
+					<section style="text-align: left;">
+						<h2>Inject 1</h2>
+						<ul>
+							<li class="fragment fade-down">The passwords in the exposed data are displayed in plain text.</li>
+							<li class="fragment fade-right">The hackers also exposed that the agency is using an insecure password hashing algorithm, they didn't reveal what kind.</li>
+						</ul>
+					</section>
+				</section>
+				<!-- END OF SCENARIO 1-->
+				
+				<!-- START OF SCENARIO 2-->
+				<section>
+					<section style="text-align: left;" id="fragments">
+						<h2>Scenario 2</h2>
+						<h3 class="fragment fade-right">Initial Facts</h3>
+						<ul>
+							<li class="fragment fade-up">After the successful implementation of the Philippine ID System.</li>
+							<li class="fragment fade-up">Months later, PSA and DICT received an email from an anonymous person telling that the database of the said system has been compromised.</li>
+						</ul>
+					</section>
+					<section style="text-align: left;">
+						<h2>Inject 1</h2>
+						<ul>
+							<li class="fragment fade-down">The claim is valid and the data have already been dumped on the Internet.</li>
+						</ul>
+					</section>
+				</section>
+				<!-- END OF SCENARIO 2 -->
+
+				<!-- QUESTIONS -->
+				<section style="text-align: left;" id="fragments">
+					<h2>Questions</h2>
+					<ol>
+						<li class="fragment fade-up">Who is in charge of the investigation?</li>
+						<li class="fragment fade-up">Who is part of the Incident Response Team?</li>
+						<li class="fragment fade-up">Do we need outside support/help? Why or Why not</li>
+						<li class="fragment fade-up">How do we prevent it from recurring.</li>
+					</ol>
+				</section>
+				<!-- END OF QUESTIONS-->
+
+				<!-- PODCAST -->
+				<section style="text-align: left;">
+					<h3>Podcasts to listen to if you're bored...</h3>
+				</section>
+
+				<section style="text-align: left;">
+					<h3>Darknet Diaries (https://darknetdiaries.com/)</h3>
+					<p>True stories from the dark side of the Internet</p>
+				</section>
+
+				<section style="text-align: left;">
+					<h3>Command Line Heroes (https://www.redhat.com/en/command-line-heroes)</h3>
+					<p>An original podcast by Red Had.</p>
+				</section>
+				<!-- END OF PODCASTS-->
+
+				<section>
+					<h3>End...Walang pakain...</h3>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				controlsLayout: 'bottom-right',
+				transition: 'zoom',
+
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
